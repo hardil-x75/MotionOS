@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x75-motionos"
+version = "0.1.0b0"
+description = "X75 MotionOS desktop hand-tracking mouse control with voice-assisted commands."
+readme = "README.md"
+license = {text = "Proprietary"}
+requires-python = ">=3.10"
+dependencies = [
+  "opencv-python>=4.8.0",
+  "mediapipe>=0.10.0",
+  "pyautogui>=0.9.54",
+  "pynput>=1.7.6",
+  "SpeechRecognition>=3.10.0",
+  "pyaudio>=0.2.13",
+  "numpy>=1.24.0",
+  "Pillow>=10.0.0",
+  "screen-brightness-control>=0.22.0",
+  "loguru>=0.7.0",
+]
+
+[project.optional-dependencies]
+offline-voice = [
+  "openai-whisper>=20231117",
+  "vosk>=0.3.45",
+]
+
+[project.gui-scripts]
+x75-motionos = "hands_free_control.app:main"
+
+[project.scripts]
+x75-motionos-preview = "hands_free_control.launcher:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hands_free_control = ["assets/*.ico", "assets/*.png"]

@@ -1,0 +1,27 @@
+# ============================================================
+# X75 MotionOS - Requirements
+# ============================================================
+
+# Core Vision & Tracking
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+
+# Mouse/Keyboard Control
+pyautogui>=0.9.54
+pynput>=1.7.6
+
+# Voice Recognition
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.13
+
+# Numerical
+numpy>=1.24.0
+
+# GUI
+Pillow>=10.0.0
+
+# Optional: screen brightness (platform specific)
+screen-brightness-control>=0.22.0
+
+# Logging
+loguru>=0.7.0

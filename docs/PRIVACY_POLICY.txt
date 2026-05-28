@@ -1,0 +1,113 @@
+X75 MotionOS Privacy Policy
+Last updated: May 28, 2026
+
+Publisher: X75 Labs
+Developer: Hardil Solanki
+Contact: x75labs@gmail.com
+
+1. Overview
+
+X75 MotionOS is a hands-free desktop control application that uses hand tracking and optional voice commands to help users control their computer. This Privacy Policy explains what information the app uses, how it is handled, and how users can contact us.
+
+This beta version does not include account login, payment processing, subscriptions, advertisements, analytics, or license checks.
+
+2. Information the App Uses
+
+X75 MotionOS may use the following device features when the user enables or starts them:
+
+- Camera: used to detect hand landmarks and gestures.
+- Microphone: used only when voice commands are enabled.
+- Local settings: used to remember app preferences such as sensitivity, gesture mappings, profiles, and voice settings.
+- Local logs: used to help diagnose crashes, camera issues, gesture issues, and other beta bugs.
+
+3. Camera Data
+
+Camera frames are processed locally on the user's device for hand tracking. The app does not intentionally record, save, upload, or share camera video.
+
+The camera preview is shown only so the user can confirm that hand tracking is working.
+
+4. Voice Data
+
+Voice commands are disabled by default in the beta. If the user enables voice commands, the app listens through the microphone to recognize supported commands.
+
+The default Google speech-recognition path may send audio to an external speech recognition service for transcription. Optional local voice engines such as Whisper or Vosk may be tested from source installations when the required dependencies and model files are installed.
+
+X75 MotionOS does not intentionally save microphone recordings.
+
+5. Local Settings and Logs
+
+The app may save settings and logs on the user's device. These files may include configuration values, runtime status, app errors, and debugging information. They are used to make the app work properly and to help troubleshoot beta issues.
+
+Typical local data may include:
+
+- camera index
+- sensitivity settings
+- gesture mappings
+- profile names and settings
+- voice settings
+- app logs
+
+6. Accounts and Payments
+
+This beta version does not include user accounts, login, passwords, OTP verification, payments, subscriptions, or billing features.
+
+The app does not collect or store payment information.
+
+7. Data Sharing
+
+X75 MotionOS does not sell user data.
+
+The app does not include advertising trackers or analytics in this beta.
+
+Data may leave the device only when:
+
+- the user enables a voice engine that uses an external speech recognition service, or
+- the user manually contacts support and chooses to share logs, screenshots, device details, or a bug report.
+
+8. Support and Bug Reports
+
+Users can contact support at:
+
+x75labs@gmail.com
+
+When reporting a bug, users may choose to share information such as:
+
+- device model
+- Windows version
+- camera model
+- app version
+- description of the issue
+- logs or screenshots
+
+Please do not send sensitive personal information unless it is necessary for the support request.
+
+9. Data Retention
+
+Settings and logs remain on the user's device until the user deletes them or uninstalls/removes the app data.
+
+Support emails and bug reports may be retained as long as needed to investigate issues, improve the app, and maintain support records.
+
+10. User Controls
+
+Users can:
+
+- disable voice commands in the app settings
+- stop the camera by pressing Stop or closing the app
+- delete local settings and logs from the app data folder
+- choose whether to send bug reports or logs to support
+
+11. Children's Privacy
+
+X75 MotionOS is not designed to knowingly collect personal information from children. If a parent or guardian believes that a child has shared personal information with us through support, they can contact us at x75labs@gmail.com.
+
+12. Changes to This Policy
+
+This Privacy Policy may be updated as X75 MotionOS changes. If future versions add accounts, payments, analytics, cloud sync, or other online services, this policy should be updated before those features are released.
+
+13. Contact
+
+For privacy questions, beta feedback, or support:
+
+Hardil Solanki
+X75 Labs
+x75labs@gmail.com
