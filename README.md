@@ -127,8 +127,11 @@ MotionOS/
     TESTER_NOTES.md
     THIRD_PARTY_NOTICES.md
   scripts/
+    build_installer.ps1
     build_windows.ps1
     build_windows_direct.ps1
+  installer/
+    X75MotionOS.iss
   src/
     hands_free_control/
       assets/
@@ -363,6 +366,22 @@ Before distribution, read:
 - `docs/PRIVACY_POLICY.txt`
 - `docs/TESTER_NOTES.md`
 - `docs/THIRD_PARTY_NOTICES.md`
+
+## Building A Windows Installer
+
+Install Inno Setup 6, then run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\build_installer.ps1
+```
+
+The installer output is:
+
+```text
+release/installer/X75MotionOSSetup-0.1.0-beta.exe
+```
+
+For Microsoft Store MSI/EXE submission, sign the installer with a trusted code-signing certificate before uploading it as a release asset.
 
 ## Publishing To GitHub
 

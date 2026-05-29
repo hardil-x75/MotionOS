@@ -29,6 +29,14 @@ python -m PyInstaller `
   --exclude-module torch `
   --exclude-module numba `
   --exclude-module llvmlite `
+  --exclude-module matplotlib `
+  --exclude-module PyQt6 `
+  --exclude-module PyQt5 `
+  --exclude-module PySide6 `
+  --exclude-module PySide2 `
+  --exclude-module scipy `
+  --exclude-module jax `
+  --exclude-module jaxlib `
   $AppEntry
 if ($LASTEXITCODE -ne 0) {
   throw "PyInstaller desktop build failed."

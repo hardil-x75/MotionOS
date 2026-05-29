@@ -14,7 +14,13 @@ This document is for Microsoft Store MSI/EXE package submission.
 
 The Microsoft Store submission should use a signed Windows EXE installer.
 
-The current beta build is a PyInstaller one-folder app bundle. Before Store release, package it into a proper installer EXE and sign it with a trusted code-signing certificate.
+The installer is built from `installer/X75MotionOS.iss` with Inno Setup 6:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\build_installer.ps1
+```
+
+Before Store release, sign the installer with a trusted code-signing certificate.
 
 ## Silent Install Parameters
 
@@ -23,7 +29,7 @@ Use the parameters that match the final installer tool.
 For an Inno Setup installer, use:
 
 ```text
-/VERYSILENT /NORESTART
+/VERYSILENT /SUPPRESSMSGBOXES /NORESTART
 ```
 
 For an MSI installer, use:
@@ -47,4 +53,3 @@ Common installer result meanings:
 If installation fails, contact support:
 
 x75labs@gmail.com
-

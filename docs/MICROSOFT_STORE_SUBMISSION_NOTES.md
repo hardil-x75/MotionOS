@@ -8,7 +8,7 @@ Package URL:
 
 ```text
 Use a direct HTTPS URL to a signed installer EXE.
-Example: https://github.com/x75labs/x75-motionos/releases/download/v0.1.0-beta/X75MotionOSSetup-0.1.0-beta.exe
+Example: https://github.com/hardil-x75/MotionOS/releases/download/v0.1.0-beta/X75MotionOSSetup-0.1.0-beta.exe
 ```
 
 Architecture:
@@ -20,7 +20,7 @@ x64
 Installer parameters:
 
 ```text
-/VERYSILENT /NORESTART
+/VERYSILENT /SUPPRESSMSGBOXES /NORESTART
 ```
 
 Use those parameters only if the final installer is built with Inno Setup. If the final installer is MSI, use:
@@ -102,4 +102,3 @@ x75labs@gmail.com
 ## Beta Notes
 
 This beta does not include account login, payment processing, subscriptions, advertisements, analytics, or license checks.
-
