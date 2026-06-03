@@ -2,7 +2,7 @@
 
 Thank you for helping test X75 MotionOS.
 
-This repository is currently published for beta testing, feedback, issue tracking, and transparency. The source code remains proprietary under `LICENSE.md`.
+This repository is published for beta testing, feedback, issue tracking, and release transparency. The source code remains proprietary under `LICENSE.md`.
 
 ## Helpful Contributions
 
@@ -16,4 +16,3 @@ This repository is currently published for beta testing, feedback, issue trackin
 ## Before Sharing Code Changes
 
 Please contact x75labs@gmail.com before submitting code changes. Do not redistribute modified builds or source copies unless Hardil Solanki gives written permission.
-

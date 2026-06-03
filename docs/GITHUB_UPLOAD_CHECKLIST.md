@@ -8,8 +8,10 @@ Commit these files and folders:
 
 - `.github/`
 - `docs/`
+- `installer/`
 - `scripts/`
 - `src/`
+- `store-assets/`
 - `.gitignore`
 - `COPYRIGHT.md`
 - `CONTRIBUTING.md`
@@ -42,8 +44,8 @@ Do not commit generated, local, or private files:
 
 Use GitHub Releases for downloadable beta builds:
 
-- `X75MotionOS-0.1.0-beta-windows.zip`
-- Signed installer EXE, for example `X75MotionOSSetup-0.1.0-beta.exe`
+- `X75MotionOSSetup-0.1.0-beta.exe`
+- Optional diagnostic app bundle zip, if needed
 
 Do not upload payment, login, or backend files for this beta. The public beta has no accounts, payments, subscriptions, ads, analytics, or license checks.
 
@@ -54,5 +56,6 @@ Do not upload payment, login, or backend files for this beta. The public beta ha
 - Confirm `Stop` closes camera tracking.
 - Confirm the in-app manual opens.
 - Confirm `docs/PRIVACY_POLICY.txt` is available publicly.
+- Confirm `store-assets/` contains current screenshots and logo assets.
 - Confirm `SUPPORT.md` points to `x75labs@gmail.com`.
 - Confirm the license still says proprietary if you do not want others copying or reselling the source.

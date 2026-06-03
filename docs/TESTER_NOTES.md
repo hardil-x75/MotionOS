@@ -4,12 +4,13 @@ X75 MotionOS is a free public beta for hands-free desktop control using hand ges
 
 ## How To Start
 
-1. Open `X75MotionOS.exe`.
-2. Allow camera permission if Windows asks.
-3. Press `Start`.
-4. Keep your hand visible in the camera preview.
-5. Use your index finger to move the cursor.
-6. Press `Stop` before closing the app.
+1. Install `X75MotionOSSetup-0.1.0-beta.exe`.
+2. Open X75 MotionOS from the Start Menu.
+3. Allow camera permission if Windows asks.
+4. Press `Start`.
+5. Keep your hand visible in the camera preview.
+6. Use your index finger to move the cursor.
+7. Press `Stop` before closing the app.
 
 ## Basic Gestures
 
@@ -70,4 +71,3 @@ Please include:
 - Camera model, if known
 - What you were doing when the issue happened
 - Screenshots or logs, if available
-

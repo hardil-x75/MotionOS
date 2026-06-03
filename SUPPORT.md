@@ -1,6 +1,6 @@
 # Support
 
-For X75 MotionOS beta support, bug reports, privacy questions, or tester feedback:
+For X75 MotionOS beta support, bug reports, privacy questions, or tester feedback, contact:
 
 - Developer: Hardil Solanki
 - Publisher: X75 Labs
@@ -18,4 +18,3 @@ When reporting a bug, please include:
 - Screenshots or logs, if available
 
 Please do not send passwords, payment details, private documents, or other sensitive personal information.
-

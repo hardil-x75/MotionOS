@@ -24,5 +24,4 @@ If Partner Center does not accept imported images, upload the screenshots and lo
 
 ## Main Download Asset
 
-For the package/installer section, use the GitHub Release installer EXE URL, not these screenshots.
-
+For the package/installer section, use a direct HTTPS installer URL that does not redirect. GitHub Release links are useful for testers, but Partner Center may reject them for MSI/EXE package URLs.
